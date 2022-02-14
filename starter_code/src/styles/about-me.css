@@ -1,0 +1,147 @@
+.top-nav {
+  display: flex;
+}
+#logo-bar {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+}
+
+#nav-bar {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+#btn-cv {
+  display: none;
+  width: 120px;
+  height: 40px;
+  color: whitesmoke;
+  background-color: var(--colButto);
+  border-radius: 5px;
+  border-color: var(--colButto);
+}
+.no-margin {
+  margin: 0px;
+}
+#title-margin {
+  margin: 15px 0px 15px 0px;
+}
+.about-me {
+  justify-content: center;
+  padding: 35px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 20px;
+}
+#cv-photo {
+  border-radius: 5px;
+}
+.media {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.icons {
+  display: flex;
+  border-color: darkorchid;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 30px;
+  width: 30px;
+}
+.photos {
+  height: 400px;
+  display: block;
+}
+.btn-code {
+  background: none;
+  font: inherit;
+  outline: inherit;
+  text-align: center;
+  width: 180px;
+  height: 50px;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 15px;
+  border: solid;
+}
+.text {
+  display: inline-block;
+  font-size: 20px;
+}
+.btn-cv {
+  text-align: center;
+  width: 180px;
+  height: 50px;
+  color: whitesmoke;
+  background-color: var(--colButto);
+  border-radius: 5px;
+  border-color: var(--colButto);
+  font-size: 15px;
+}
+.particip {
+  align-items: baseline;
+  text-align: center;
+  padding-top: 160px;
+  font-size: 30px;
+  margin-bottom: 130px;
+}
+.title-secc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--my-color);
+  background-color: var(--colButto);
+  height: 45px;
+  width: 240px;
+  font-size: 30px;
+  border-bottom: solid;
+  border-left: solid;
+  border-color: white;
+}
+.textSize {
+  font-size: 20px;
+  padding: 20px 0px 20px 0px;
+}
+.card {
+  margin: 120px 0px 120px 0px;
+  text-align: center;
+  padding: 60px;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  height: 200px;
+  border-radius: 15px;
+  border: solid;
+  background-color: rgba(0, 0, 0, 0.295);
+}
+.btn-project {
+  text-align: center;
+  width: 180px;
+  height: 50px;
+  color: whitesmoke;
+  background-color: var(--colButto);
+  border-radius: 5px;
+  border-color: var(--colButto);
+  font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .about-me {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #btn-cv {
+    display: block;
+  }
+  #nav-bar {
+    display: none;
+  }
+  #logo-bar {
+    display: none;
+  }
+}

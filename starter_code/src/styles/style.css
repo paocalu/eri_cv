@@ -1,0 +1,21 @@
+@import url(./about-me.css);
+:root {
+  --fontBase: "Roboto", sans-serif;
+  --my-color: #eacdc2;
+  --colButto: #b75d69;
+}
+
+body {
+  margin: 40px;
+  font-weight: lighter;
+  font-family: var(--fontBase);
+  color: var(--my-color);
+  background-color: #774c60;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
